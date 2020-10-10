@@ -1,6 +1,6 @@
 Project Promotion Engine:
 
-Promotion Engine having 3 package :-
+Promotion Engine having 3 packages :-
 
 1. com.promotionengine.calculation
  This package contains CalcucateCost.java which having logic of doing promotion calculation on the basis of SKU's quantity.

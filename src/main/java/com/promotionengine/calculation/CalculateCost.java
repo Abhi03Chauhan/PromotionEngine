@@ -10,18 +10,18 @@ public class CalculateCost {
 	public static final int PRICE_SKUC = 20;
 	public static final int PRICE_SKUD = 15;
 	public static final int PRICE_COMBO_SKUCD = 30;
-	
+	public int total =0;
 	
 	
 	public int calculateTotalCost(int quantA, int quantB, int quantC, int quantD ) {
-		int total =0;
+		
 		
 		  total = calculateSkuIdA(quantA, total);
 		  total = calculateSkuIdB(quantB, total);
 		  total = calculateSkuIdCAndD(quantC, quantD, total);
 		
 		
-		return total;
+		return total ;
 	}
 
 
